@@ -107,11 +107,44 @@ nav{
 }
 
 .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: white;
     border-radius: 15px; 
     height: 80%;
     width: 80%;
     overflow-y: auto;
+    padding-top: 25%;
+}
+
+.panel{
+    margin-top: 1vh;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px; 
+    width: 95%;
+    padding: 1rem 10%;
+}
+
+.panel-image{
+    border-radius: 15px; 
+}
+
+.panel-text{
+    flex-direction: column;
+}
+
+.panel-title{
+    font-size: 250%;
+}
+
+.panel-description{
+    font-size: 150%;
 }
 
 .footer{
@@ -123,5 +156,6 @@ nav{
     background-color: white;
     border-radius: 15px; 
     width: 80%;
+    font-size: 120%;
 }
 
