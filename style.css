@@ -43,7 +43,6 @@ body{
 header{
     font-family: 'Arthead';
     margin-top: 1vh;
-    position: fixed;
     top: 0;
     left: 0;
     width:100%;
@@ -109,7 +108,6 @@ nav{
 .content{
     background-color: white;
     border-radius: 15px; 
-    margin-top: 20vh;
     height: 80%;
     width: 80%;
 }
