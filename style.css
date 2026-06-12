@@ -27,6 +27,7 @@ html{
 }
 
 body{
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +63,7 @@ header{
     align-items: center;
     background-color: white;
     border-radius: 15px; 
-    padding: 1rem 3%;
+    padding: 2rem 3%;
     width: 100%
 }
 
@@ -110,6 +111,7 @@ nav{
     border-radius: 15px; 
     height: 80%;
     width: 80%;
+    overflow-y: auto;
 }
 
 .footer{
