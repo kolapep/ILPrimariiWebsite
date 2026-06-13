@@ -81,6 +81,17 @@ header{
     padding-right: 2rem 3%;
 }
 
+@media screen and (max-width: 767px) {
+.logo{
+    font-family: 'Arthead';
+    font-size: 400%;
+    color: black;
+    cursor: pointer;
+    padding-left: 2rem 5%;
+    padding-right: 2rem 5%;
+}
+}
+
 .logobox:hover{
 transform: scale(1.1);
 }
