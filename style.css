@@ -247,6 +247,10 @@ nav{
     font-size: 300%;
     text-align: center;
     white-space: normal;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 .panel-description{
