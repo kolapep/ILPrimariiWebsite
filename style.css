@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'Arthead';
-    src: url(fonts/Arthead-RegularFREE.ttf);
+    src: url(fonts/NowsterCute.otf);
 }
 @font-face {
     font-family: 'CreatoDisplayThin';
@@ -227,6 +227,7 @@ nav{
 }
 
 .panel-title{
+    font-family: 'Arthead';
     font-size: 300%;
 }
 
