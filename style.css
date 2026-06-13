@@ -74,7 +74,7 @@ header{
 
 .logo{
     font-family: 'Arthead';
-    font-size: 6rem;
+    font-size: 600%;
     color: black;
     cursor: pointer;
 }
