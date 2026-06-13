@@ -118,11 +118,11 @@ nav{
     background-color: rgb(255, 255, 255);
     border-radius: 15px; 
     gap: 4%;
-    padding: 4%;
     height: 80%;
     width: 80%;
     overflow-y: auto;
     overflow-x: hidden;
+    padding: 1rem 5%;
 }
 
 .panelbasic{
