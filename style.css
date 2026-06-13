@@ -146,6 +146,7 @@ nav{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    text-align: center;
     background-color: white;
     border-radius: 15px; 
     padding: 1rem 5%;
@@ -229,6 +230,8 @@ nav{
 .panel-title{
     font-family: 'Arthead';
     font-size: 300%;
+    text-align: center;
+    white-space: normal;
 }
 
 .panel-description{
@@ -237,7 +240,6 @@ nav{
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
 
 .footer{
     margin-top: 1vh;
