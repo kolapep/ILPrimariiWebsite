@@ -206,11 +206,13 @@ nav{
 }
 
 .bluebase{
-    border-color:rgb(113, 105, 235)
+    border-color:rgb(113, 105, 235);
+    background-color:rgb(136, 128, 238);
 }
 
 .yellowbase{
     border-color: rgb(251, 226, 170);
+    background-color: rgb(249, 231, 193);
 }
 
 .panel-image{
