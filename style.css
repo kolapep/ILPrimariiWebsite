@@ -54,7 +54,7 @@ header{
     top: 0;
     left: 0;
     width:100%;
-    padding: 1rem 9%;
+    padding: 1rem 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,6 +62,20 @@ header{
     z-index: 100;
     background-color: black;
 }
+
+.footer{
+    margin-top: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px; 
+    width: 90%;
+    font-size: 120%;
+}
+
+/* Header */
 
 .logobox{
     display: flex;
@@ -105,6 +119,8 @@ header{
 transform: scale(1.1);
 }
 
+/* Navigation */
+
 nav{
     margin-top: 1vh;
     top: 0;
@@ -133,6 +149,8 @@ nav{
     transform: scale(1.1);
 }
 
+/* Main Content Box */
+
 .content{
     display: flex;
     flex-direction: column;
@@ -141,7 +159,7 @@ nav{
     border-radius: 15px; 
     gap: 4%;
     height: 80%;
-    width: 80%;
+    width: 90%;
     overflow-y: auto;
     overflow-x: hidden;
     padding: 1rem 5%;
@@ -159,8 +177,9 @@ nav{
     padding: 1rem 2%;
 }
 
+/* Section Panels: Main Style */
 .panel{
-    width: 90%;
+    width: 95%;
     border: 5px solid;
     display: flex;
     flex-wrap: wrap;
@@ -200,25 +219,7 @@ nav{
     color: black;
 }
 
-.blackbase{
-    border-color:rgb(0, 0, 0);
-    background-color:rgb(0, 0, 0);
-}
-
-.redbase{
-    border-color:rgb(243, 117, 113);
-    background-color:rgb(242, 146, 143);
-}
-
-.bluebase{
-    border-color:rgb(113, 105, 235);
-    background-color:rgb(136, 128, 238);
-}
-
-.yellowbase{
-    border-color: rgb(251, 226, 170);
-    background-color: rgb(249, 231, 193);
-}
+/* Panel Content Styles*/
 
 .panel-image{
     border-radius: 15px; 
@@ -228,7 +229,7 @@ nav{
     flex-direction: column;
     flex-wrap: wrap;
     width: fit-content;
-    max-width: 60%;
+    max-width: 80%;
     max-height: 60%;
     white-space: nowrap;
 }
@@ -239,14 +240,6 @@ nav{
     text-align: center;
     width: fit-content;
     max-width: 80%;
-}
-
-.redtext{
-    color: rgb(243, 117, 113);
-}
-
-.bluetext{
-    color: rgb(113, 105, 235);
 }
 
 .panel-title{
@@ -267,17 +260,40 @@ nav{
     text-overflow: ellipsis;
 }
 
-.footer{
-    margin-top: 1vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: white;
-    border-radius: 15px; 
-    width: 80%;
-    font-size: 120%;
+/* Text Colors*/
+
+.redtext{
+    color: rgb(243, 117, 113);
 }
+
+.bluetext{
+    color: rgb(113, 105, 235);
+}
+
+/* Panel Base Colors*/
+
+
+.blackbase{
+    border-color:rgb(0, 0, 0);
+    background-color:rgb(0, 0, 0);
+}
+
+.redbase{
+    border-color:rgb(243, 117, 113);
+    background-color:rgb(242, 146, 143);
+}
+
+.bluebase{
+    border-color:rgb(113, 105, 235);
+    background-color:rgb(136, 128, 238);
+}
+
+.yellowbase{
+    border-color: rgb(251, 226, 170);
+    background-color: rgb(249, 231, 193);
+}
+
+/* Buttons*/
 
 .buttonpannel{
     display: flex;
