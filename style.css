@@ -23,7 +23,7 @@
 }
 
 html{
-    font-size: 65%;
+    font-size: 70%;
 }
 
 a {
@@ -225,7 +225,7 @@ nav{
     border-radius: 15px; 
 }
 
-.panel-text{
+.panel-text{ /* Panel Box*/
     flex-direction: column;
     flex-wrap: wrap;
     width: fit-content;
@@ -234,7 +234,7 @@ nav{
     white-space: nowrap;
 }
 
-.title-text{
+.title-text{ /* Title Box*/
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
@@ -242,18 +242,27 @@ nav{
     max-width: 80%;
 }
 
-.panel-title{
+.panel-title{ /* Title Text Style Little*/
     font-family: 'Arthead';
-    font-size: 300%;
+    font-size: 250%;
     text-align: center;
     white-space: normal;
-
     display: flex;
     justify-content: center;
     align-items: center; 
 }
 
-.panel-description{
+.panel-title-big{ /* Title Text Style Big*/
+    font-family: 'Arthead';
+    font-size: 350%;
+    text-align: center;
+    white-space: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.panel-description{ /* Description Text Style*/
     margin-top: 1vh;
     font-size: 180%;
     overflow: hidden;
