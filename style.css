@@ -302,3 +302,14 @@ nav{
 .rounded-btn:hover {
     transform: scale(1.05);
 }
+
+.email-button {
+    width: 80px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin: 10px;
+}
+
+.email-button:hover {
+    transform: scale(1.1);
+}

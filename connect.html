@@ -6,6 +6,7 @@
     <!-- Stylesheet CSS links -->
      <link rel="stylesheet" href = "style.css">
      <link rel="stylesheet" href = "stylefont.css">
+     <script src="script.js" defer></script>
     <!-- Tab Image and Title -->
     <link rel="icon" type = "image/png" href="images/webpage/ILPLogoFull.png">
     <title>ILPrimarii Home</title>
@@ -49,7 +50,7 @@
     </nav>
     </header>
     <section class = "content"> 
-                        <div class = "panelbasic"> 
+            <div class = "panelbasic"> 
             <div class = "panel-content-stack">
                 <div class = "panel-image">
                     <img src = "images\webpage\ArtistProfileImageAlt.png"; style="border-radius: 15px"; height="200vh"/>
@@ -58,7 +59,18 @@
                     <div class = "panel-title">Get Connected</div>
                     <div class = "panel-description bluetext">Interested in my designs? Let me know!</div>
                     <div class = "panel-description">Message me at ILprimarii@gmail.com for work or business inquiries. If you'd like to see more of my work in the future, check out any of my pages below for more frequent updates.</div>
-                    <div class = "panel-description bluetext">[Tag] [Tag]</div>
+                </div>
+                <div class = "panel-content-wrap"> 
+                    <img src="images\webpage\navigation\iconGmail.png" class="email-button" onclick="copyEmail()" >
+                    <a href="https://www.instagram.com/ILPrimarii/">
+                        <img src = "images\webpage\navigation\iconInstagram.svg"; margin="10px"; height="80"/>
+                    </a>
+                    <a href="https://x.com/kola_pep">
+                        <img src = "images\webpage\navigation\iconTwitter.svg"; margin="10px"; height="80"/>
+                    </a>
+                    <a href="https://ilprimarii.itch.io">
+                        <img src = "images\webpage\navigation\iconItchio.svg"; margin="10px"; height="70"/>
+                    </a>
                 </div>
             </div>
         </div>
