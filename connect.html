@@ -14,9 +14,12 @@
 <body>
     <header>
         <div class = "logobox">
-        <a href="index.html" class="logo">ILPrimarii</a>
-        </div>
-           <nav>
+            <button class="menu-toggle" id="menuToggle">
+            ☰
+            </button>
+            <a href="index.html" class="logo">ILPrimarii</a>
+            <nav class="navbar">
+                <ul class="nav-links" id="navLinks">
             <a href="services.html">
                 <div class = "navbox">
                 <img src = "images/webpage/navigation/buttonServices.png"; height="40"/>
@@ -47,7 +50,8 @@
                 Connect
                 </div>
             </a>
-    </nav>
+        </ul>
+    </div>
     </header>
     <section class = "content"> 
             <div class = "panelheader"> 
@@ -78,4 +82,5 @@
     <section class= "footer">
             <img src = "images\webpage\IPLLogoSimple.png"; height="40"/>
     </section>
+      <script src="script.js"></script>
 </body>
