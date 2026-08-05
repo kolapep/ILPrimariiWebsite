@@ -412,6 +412,11 @@ nav{
     background-color: rgb(249, 231, 193);
 }
 
+.whitebase{
+    border-color: rgb(255, 255, 255,0);
+    background-color: rgba(216, 216, 216, 0);
+}
+
 /* Buttons*/
 
 .buttonpannel{
