@@ -149,7 +149,7 @@ nav{
     border-radius: 15px; 
 }
 
-.navbox{
+.navbox{ /*Navigation Buttons*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -226,7 +226,7 @@ nav{
     }
 }
 
-/* Main Content Box */
+/* Main Web Content Boxes */
 
 .content{
     display: flex;
@@ -268,22 +268,6 @@ nav{
     padding: 1rem 5%;
 }
 
-.porjectpanelbox{
-    display: flex;
-    border: 5px solid;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: white;
-    border-radius: 15px; 
-    padding: 1rem 5%;
-}
-
-.panel:hover{
-     transform: scale(1.05);
-}
-
 .panel-content-wrap{
     width: 100%;
     display: flex;
@@ -308,49 +292,12 @@ nav{
     color: black;
 }
 
-.panel-projects-wrap{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    border-radius: 15px; 
-    padding: 1rem 3%;
-    color: black;
-}
-
-/* Panel Content Styles*/
-
-.panel-image{
-    border-radius: 15px; 
-}
-
-.panel-text{ /* Panel Box*/
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: fit-content;
-    max-width: 80%;
-    max-height: 60%;
-    white-space: nowrap;
-}
-
 .title-text{ /* Title Box*/
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
     width: fit-content;
     max-width: 80%;
-}
-
-.panel-title{ /* Title Text Style Little*/
-    font-family: 'Arthead';
-    font-size: 250%;
-    text-align: center;
-    white-space: normal;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
 }
 
 .panel-title-big{ /* Title Text Style Big*/
@@ -363,6 +310,91 @@ nav{
     align-items: center; 
 }
 
+.panel-title{ /* Title Text Style Little*/
+    font-family: 'Arthead';
+    font-size: 250%;
+    text-align: center;
+    white-space: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+/*Project Pannels*/
+
+.panel-projects-wrap{  /*Full Wrap*/
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px; 
+    padding: 1rem 3%;
+    color: black;
+}
+
+.porjectpanelbox{ /*Individual Project Boxes*/
+    display: flex;
+    border: 5px solid;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px; 
+    padding: 1rem 5%;
+}
+
+.porjectpanelbox:hover{
+     transform: scale(1.05);
+}
+
+.project-panel-title{ /*Project Panels Title Text*/
+    font-family: 'Arthead';
+    font-size: 250%;
+    text-align: center;
+    white-space: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    max-width: 240px;
+    margin-top: 1vh;
+}
+
+.project-panel-title-mini{ /*Project Panels Title Text*/
+    font-family: 'Arthead';
+    font-size: 200%;
+    text-align: center;
+    white-space: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    max-width: 240px;
+}
+
+/* Panel Content Styles*/
+
+.panel-image{
+    border-radius: 15px; 
+}
+
+.panel-image img{
+    width: 20vh;
+    height: 20vh;
+    object-fit: cover;
+    border-radius: 12px; 
+}
+
+.panel-text{ /* Panel text Box*/
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: fit-content;
+    max-width: 80%;
+    max-height: 60%;
+    white-space: nowrap;
+}
+
 .panel-description{ /* Description Text Style*/
     margin-top: 1vh;
     font-size: 180%;
@@ -370,7 +402,7 @@ nav{
     text-overflow: ellipsis;
 }
 
-.panel-description-clamped{ /* Description Text Style*/
+.panel-description-clamped{ /* Description Text Style, Clamped*/
     margin-top: 1vh;
     font-size: 180%;
     overflow: hidden;
@@ -378,12 +410,14 @@ nav{
     max-width: 600px;
 }
 
-.project-description{ /* Description Text Style*/
+.project-description{ /* Description Text Style: Tags*/
     margin-top: 1vh;
     font-size: 180%;
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 200px;
+    margin-left: 2vh;
+    margin-top: 0;
 }
 
 /* Text Colors*/
@@ -444,7 +478,7 @@ nav{
   font-size: 120%;
   white-space: nowrap;
   width: fit-content;
-  margin-left: -16px
+  margin-left: -14px
 }
 
 .rounded-btn:hover {
