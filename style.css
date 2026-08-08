@@ -198,6 +198,10 @@ nav{
 
     .menu-toggle {
         display: block;
+            -webkit-text-stroke: .2px white;
+            font-style: bold;
+            font-size: 320%;
+
     }
 
     .nav-links {
@@ -490,8 +494,4 @@ nav{
     cursor: pointer;
     transition: transform 0.2s;
     margin: 10px;
-}
-
-.email-button:hover {
-    transform: scale(1.1);
 }
