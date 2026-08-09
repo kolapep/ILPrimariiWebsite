@@ -551,12 +551,12 @@ canvas {
 
 /* The draggable slider thumb */
 ::-webkit-scrollbar-thumb {
-  background: #655bd0;             /* Color of the draggable bar */
+  background: #a09cd4;             /* Color of the draggable bar */
   border-radius: 10px;            /* Optional: rounded edges */
   border: 3px solid rgba(227, 227, 227);
 }
 
 /* The thumb appearance on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #454b9d;             /* Darken the bar on hover */
+  background: #646bce;             /* Darken the bar on hover */
 }
