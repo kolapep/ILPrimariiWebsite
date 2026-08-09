@@ -325,17 +325,8 @@ nav{
 }
 
 @media screen and (max-width: 1100px) {
-    /* .panel-title-big{ 
-    font-family: 'Arthead';
-    font-size: 330%;
-    text-align: center;
-    white-space: normal;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    } */
 
-    .panel-title-welcome{ 
+     .panel-title-welcome{ 
     font-family: 'Arthead';
     font-size: 295%;
     text-align: center;
@@ -344,6 +335,17 @@ nav{
     justify-content: center;
     align-items: center; 
     }
+    
+    .panel-title-big{ 
+    font-family: 'Arthead';
+    font-size: 330%;
+    text-align: center;
+    white-space: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    }
+
 }
 
 .panel-title{ /* Title Text Style Little*/
