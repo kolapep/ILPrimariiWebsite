@@ -335,8 +335,8 @@ nav{
     justify-content: center;
     align-items: center; 
     }
-    
-    .panel-title-big{ 
+
+    /* .panel-title-big{ 
     font-family: 'Arthead';
     font-size: 330%;
     text-align: center;
@@ -344,7 +344,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center; 
-    }
+    } */
 
 }
 
