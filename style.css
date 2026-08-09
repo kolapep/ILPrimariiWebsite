@@ -8,7 +8,7 @@
     src: url(fonts/CreatoDisplay-Thin.ttf);
 }
 @font-face {
-    font-family: 'CreatoDisplayRegular';
+    font-family: 'HeyComic';
     src: url(fonts/HeyComic.otf);
 }
 
@@ -19,7 +19,7 @@
     text-decoration: none;
     border: none;
     outline: none;
-    font-family: 'CreatoDisplayRegular';
+    font-family: 'HeyComic';
 }
 
 html{
