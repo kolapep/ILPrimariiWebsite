@@ -340,15 +340,15 @@ nav{
 
 @media screen and (max-width: 1100px) {
 
-     /* .welcome-title{ 
+     .welcome-title{ 
     font-family: 'Arthead';
-    font-size: 295%;
+    font-size: 290%;
     text-align: center;
     white-space: normal;
     display: flex;
     justify-content: center;
     align-items: center; 
-    } */
+    }
 }
 
 .panel-title{ /* Title Text Style Little*/
