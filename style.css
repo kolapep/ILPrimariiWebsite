@@ -67,7 +67,7 @@ header{
     align-items: center;
     flex-direction: column;
     z-index: 100;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .footer{
@@ -535,5 +535,28 @@ nav{
 }
 
 canvas {
-      display: block;
-    }
+    display: block;
+}
+
+::-webkit-scrollbar {
+  width: 12px;                     /* Width of vertical scrollbar */
+  height: 10px;                    /* Height of horizontal scrollbar */
+}
+
+/* The background track */
+::-webkit-scrollbar-track {
+  background: rgb(227, 227, 227);             /* Color of the track */
+  border-radius: 100px;            /* Optional: rounded edges */
+}
+
+/* The draggable slider thumb */
+::-webkit-scrollbar-thumb {
+  background: #655bd0;             /* Color of the draggable bar */
+  border-radius: 10px;            /* Optional: rounded edges */
+  border: 3px solid rgba(227, 227, 227);
+}
+
+/* The thumb appearance on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #454b9d;             /* Darken the bar on hover */
+}
