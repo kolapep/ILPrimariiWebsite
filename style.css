@@ -343,7 +343,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center; 
-}
+    }
 }
 
 .panel-title{ /* Title Text Style Little*/
