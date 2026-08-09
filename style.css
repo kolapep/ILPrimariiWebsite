@@ -306,12 +306,24 @@ nav{
 
 .panel-title-big{ /* Title Text Style Big*/
     font-family: 'Arthead';
-    font-size: 340%;
+    font-size: 350%;
     text-align: center;
     white-space: normal;
     display: flex;
     justify-content: center;
     align-items: center; 
+}
+
+@media screen and (max-width: 1100px) {
+    .panel-title-big{ /* Title Text Style Big*/
+    font-family: 'Arthead';
+    font-size: 330%;
+    text-align: center;
+    white-space: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
 }
 
 .panel-title{ /* Title Text Style Little*/
