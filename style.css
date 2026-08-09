@@ -325,7 +325,7 @@ nav{
 }
 
 @media screen and (max-width: 1100px) {
-    .panel-title-big{ 
+    /* .panel-title-big{ 
     font-family: 'Arthead';
     font-size: 330%;
     text-align: center;
@@ -333,7 +333,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center; 
-    }
+    } */
 
     .panel-title-welcome{ 
     font-family: 'Arthead';
