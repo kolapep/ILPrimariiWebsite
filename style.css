@@ -9,7 +9,7 @@
 }
 @font-face {
     font-family: 'CreatoDisplayRegular';
-    src: url(fonts/CreatoDisplay-Regular.ttf);
+    src: url(fonts/HeyComic.otf);
 }
 
 *{
@@ -470,6 +470,8 @@ nav{
     max-width: 200px;
     margin-left: 2vh;
     margin-top: 0;
+    font-family: "social-gothic", sans-serif;
+    text-transform: uppercase;
 }
 
 /* Text Colors*/
@@ -530,7 +532,7 @@ nav{
   font-size: 160%;
   white-space: nowrap;
   width: fit-content;
-  margin-left: -14px
+  margin-left: -14px;
 }
 
 .rounded-btn:hover {
