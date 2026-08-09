@@ -532,3 +532,7 @@ nav{
     transition: transform 0.2s;
     margin: 10px;
 }
+
+canvas {
+      display: block;
+    }
