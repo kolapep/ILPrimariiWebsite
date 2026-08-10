@@ -103,7 +103,7 @@ header{
 .footer-bg img {
     width: 100%;
     height: 100%;
-object-fit: contain;
+    object-fit: contain;
     object-position: bottom;
     top: 0;
     left: 0;
@@ -146,9 +146,8 @@ object-fit: contain;
     pointer-events: auto;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
 
-    /* Left image */
     .footer-left {
     width: 230px;
     height: auto;
@@ -159,7 +158,6 @@ object-fit: contain;
     height: auto;
     }
 
-    /* Right button */
     .footer-button {
     width: 230px;
     height: auto;
@@ -168,7 +166,6 @@ object-fit: contain;
 
 @media (max-width: 800px) {
     
-    /* Left image */
     .footer-left {
     width: 150px;
     height: auto;
@@ -181,7 +178,6 @@ object-fit: contain;
     z-index: 2;
     }
 
-    /* Right button */
     .footer-button {
     width: 0%;
     height: 0%;
