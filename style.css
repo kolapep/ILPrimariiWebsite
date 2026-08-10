@@ -406,6 +406,12 @@ nav{
     max-width: 80%;
 }
 
+@media screen and (max-width: 800px) {
+    .title-text{ 
+    max-width: 95%;
+}
+}
+
 .panel-title-big{ /* Title Text Style Big*/
     font-family: 'Arthead';
     font-size: 350%;
