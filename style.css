@@ -77,8 +77,9 @@ header{
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 20vw;
+    height: 50%;
     overflow: hidden;
+    pointer-events: none;
 }
 
 .footer img {
@@ -121,58 +122,46 @@ header{
 
 /* Right button */
 .footer-button {
-    position: absolutes;
+    position: absolute;
     right: 0;
     bottom: 0;
     width: 300px;
     height: auto;
     z-index: 3;
+    pointer-events: auto;
 }
 
 @media (max-width: 1100px) {
-
     .footer-bg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
     object-position: bottom;
     top: 0;
     left: 0;
-    z-index: 1;
     }
 
      /* Left image */
     .footer-left {
-    position: absolute;
-    left: 0;
-    bottom: 0;
     width: 230px;
     height: auto;
     z-index: 2;
     }
 
     .footer-right {
-    position: absolute;
-    right: 0;
-    bottom: 0;
     width: 130px;
     height: auto;
-    z-index: 2;
     }
 
     /* Right button */
     .footer-button {
-    position: absolute;
-    right: 0;
-    bottom: 0;
     width: 230px;
     height: auto;
-    z-index: 3;
-}
+    }
 }
 
 @media (max-width: 800px) {
+
+    .footer{
+    bottom: -5px;
+    }
 
     .footer-bg {
     position: absolute;
@@ -182,18 +171,12 @@ header{
     }
     /* Left image */
     .footer-left {
-    position: absolute;
-    left: 0;
-    bottom: 0;
     width: 150px;
     height: auto;
     z-index: 2;
     }
 
     .footer-right {
-    position: absolute;
-    right: 0;
-    bottom: 0;
     width: 80px;
     height: auto;
     z-index: 2;
@@ -201,9 +184,6 @@ header{
 
     /* Right button */
     .footer-button {
-    position: absolute;
-    right: 0;
-    bottom: 0;
     width: 180px;
     height: auto;
     z-index: 3;
