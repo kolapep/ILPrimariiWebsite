@@ -26,7 +26,7 @@ html{
     font-size: 70%;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 800px) {
     html{
     font-size: 60%;
     }
@@ -44,7 +44,8 @@ body{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    min-height: 100%;
     background-image: url(images/movingBackground.gif);
     background-repeat: no-repeat;
     background-size: contain;
@@ -76,9 +77,8 @@ header{
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 15vw;
+    height: 20vw;
     overflow: hidden;
-    z-index: 1000;
 }
 
 .footer img {
@@ -101,7 +101,7 @@ header{
 
 /* Left image */
 .footer-left {
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 270px;
@@ -111,7 +111,7 @@ header{
 
 /* Right image */
 .footer-right {
-    position: fixed;
+    position: absolute;
     right: 0;
     bottom: 0;
     width: 150px;
@@ -121,7 +121,7 @@ header{
 
 /* Right button */
 .footer-button {
-    position: fixed;
+    position: absolutes;
     right: 0;
     bottom: 0;
     width: 300px;
@@ -129,7 +129,7 @@ header{
     z-index: 3;
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1100px) {
 
     .footer-bg {
     position: absolute;
@@ -142,9 +142,47 @@ header{
     z-index: 1;
     }
 
+     /* Left image */
+    .footer-left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 230px;
+    height: auto;
+    z-index: 2;
+    }
+
+    .footer-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 130px;
+    height: auto;
+    z-index: 2;
+    }
+
+    /* Right button */
+    .footer-button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 230px;
+    height: auto;
+    z-index: 3;
+}
+}
+
+@media (max-width: 800px) {
+
+    .footer-bg {
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    
+    }
     /* Left image */
     .footer-left {
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 150px;
@@ -153,7 +191,7 @@ header{
     }
 
     .footer-right {
-    position: fixed;
+    position: absolute;
     right: 0;
     bottom: 0;
     width: 80px;
@@ -162,15 +200,14 @@ header{
     }
 
     /* Right button */
-.footer-button {
-    position: fixed;
+    .footer-button {
+    position: absolute;
     right: 0;
     bottom: 0;
     width: 180px;
     height: auto;
     z-index: 3;
 }
-
 }
 
 /* Header */
