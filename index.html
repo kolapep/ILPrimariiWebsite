@@ -222,9 +222,15 @@
         </div>
     </section>
     <section class= "footer">
-    <img src="images/webpage/footer-bg-long.png" class="footer-bg" alt="">
+    <picture class="footer-bg">
+        <source media="(max-width: 900px)" srcset="images/webpage/footer-bg.png">
+        <img src="images/webpage/footer-bg-long.png" alt="">
+    </picture>
     <img src="images/webpage/footer-left.png" class="footer-left" alt="">
-    <img src="images/webpage/footer-right.png" class="footer-right" alt="">
+    <picture class="footer-right">
+        <source media="(max-width: 800px)" srcset="images/webpage/footer-right-alt.png">
+        <img src="images/webpage/footer-right.png" alt="">
+    </picture>
     <a href="connect.html">
     <img src="images/webpage/footer-button.png" class="footer-button" alt="">
     </a>
