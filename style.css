@@ -649,9 +649,10 @@ nav{
 
 .email-button {
     width: 80px;
+    height: 75px;;
     cursor: pointer;
     transition: transform 0.2s;
-    margin: 10px;
+    margin-left: 5px;
 }
 
 /* P5.js Canvas */
